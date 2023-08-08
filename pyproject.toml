@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "homework-13"
+version = "0.1.0"
+description = "homework_13"
+authors = ["Maxim Abavi"]
+readme = "README.md"
+packages = [{include = "homework_13"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
